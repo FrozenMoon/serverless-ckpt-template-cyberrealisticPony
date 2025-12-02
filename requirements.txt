@@ -1,8 +1,11 @@
 runpod
+
+# 关键：降级到还支持 cached_download 的版本
+huggingface_hub==0.25.2
+
 accelerate==0.30.0
 diffusers==0.27.2
 transformers==4.41.2
 safetensors==0.4.3
 Pillow
 einops
-# 如果后面需要再加别的依赖，再慢慢加
