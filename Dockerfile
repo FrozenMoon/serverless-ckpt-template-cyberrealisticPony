@@ -1,5 +1,4 @@
-ARG BASE_IMAGE=nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
-FROM ${BASE_IMAGE} as dev-base
+FROM FROM runpod/pytorch:2.0.1-py3.10-cuda11.8.0-devel-ubuntu22.04
 
 ARG MODEL_URL
 ENV MODEL_URL=https://huggingface.co/GGMU1878/cyberrealisticPony_v141
