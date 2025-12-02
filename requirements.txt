@@ -1,10 +1,8 @@
-huggingface-hub==0.13.3
-diffusers==0.13.1
-torch==2.0.0
-ftfy==6.1.1
-scipy==1.10.1
-transformers==4.27.4
-accelerate==0.18.0
-xformers==0.0.18
-triton==2.0.0.post1
-runpod~=1.7.9
+runpod
+accelerate==0.30.0
+diffusers==0.27.2
+transformers==4.41.2
+safetensors==0.4.3
+Pillow
+einops
+# 如果后面需要再加别的依赖，再慢慢加
